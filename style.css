@@ -72,14 +72,14 @@ nav a {
     height: calc(100vh);
     max-width: auto;
     text-align: center;
-    background: url(/Image/back2.jpg);
+    background: url(back2.jpg);
     position: relative;
 }
 
 .space-bg {
     width: 100%;
     height: calc(100vh);
-    background: url(Image/zoomed.jpg) no-repeat 50% 50%;
+    background: url(zoomed.jpg) no-repeat 50% 50%;
     background-size: cover;
     position: relative;
 }
