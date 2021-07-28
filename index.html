@@ -1,0 +1,59 @@
+<!-- write your code here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+        <title>SpaceX Mars Expedition</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Play&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </head>
+    <body>
+        <div class="space-bg">
+            <div class="container">
+                <div class="navbar">
+                    <img src="/Image/logo.png" class="logo">
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.spacex.com/vehicles/falcon-9/" class="ahover">FALCON 9</a></li>
+                            <li><a href="https://www.spacex.com/vehicles/falcon-heavy/" class="ahover">FALCON HEAVY</a></li>
+                            <li><a href="https://www.spacex.com/vehicles/dragon/" class="ahover">DRAGON</a></li>
+                            <li><a href="https://www.spacex.com/vehicles/starship/" class="ahover">STARSHIP</a></li>
+                            <li><a href="https://www.spacex.com/human-spaceflight/" class="ahover">HUMAN SPACEFLIGHT</a></li>
+                            <li><a href="https://www.spacex.com/rideshare/" class="ahover">RIDESHARE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="midtext">MARS & BEYOND</div>
+                <div class="undermidtext">THE ROAD TO MAKING HUMANITY MULTIPLANETARY</div>
+            </div>
+            <img src="/Image/staticbg.png" alt="" class="staticbg">
+        </div>
+        <div class="content">
+            <h1>SpaceX MARS MISSION</h1>
+            <p>“You want to wake up in the morning and think the future is going to be great - and that’s what</p>
+            <p>being a spacefaring civilization is all about. It’s about believing in the future and thinking that</p>
+            <p>the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.”</p>
+            <p>-Elon Musk</p><br><br>
+            <h2>WHY MARS?</h2>
+            <p>At an average distance of 140 million miles, Mars is one of Earth's closest habitable neighbors.</p>
+            <p>Mars is about half again as far from the Sun as Earth is, so it still has decent sunlight. It is a little cold, but we can warm it up.</p>
+            <p>Its atmosphere is primarily CO2 with some nitrogen and argon and a few other trace elements, which means that</p>
+            <p>we can grow plants on Mars just by compressing the atmosphere.</p>
+            <p>Gravity on Mars is about 38% of that of Earth, so you would be able to lift heavy things and bound around.</p>
+            <p>Furthermore, the day is remarkably close to that of Earth.</p>
+        </div>
+        <script type="text/javascript">
+        
+        $(window).scroll(function() {
+            let scrollPos = $(this).scrollTop();
+            $(".space-bg").css({
+                'background-size' : 100 + scrollPos*0.10 + '%'
+            });
+        });
+        
+        </script>
+    </body>
+</html>
